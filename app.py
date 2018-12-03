@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[15]:
+# In[22]:
 
 
 import dash
@@ -144,7 +144,7 @@ def update_graph(xaxis_column_name, yaxis_column_name,
                 'title': yaxis_column_name,
                 'type': 'linear' if yaxis_type == 'Linear' else 'log'
             },
-            margin={'l': 70, 'b': 50, 't': 50, 'r': 0},
+            margin={'l': 70, 'b': 50, 't': 50, 'r': 15},
             hovermode='closest'
         )
         
@@ -175,7 +175,7 @@ def update_graph2(dropdown_geo_name,dropdown_indi_name):
             yaxis={
                 'title': dropdown_indi_name,
             },
-            margin={'l': 70, 'b': 50, 't': 50, 'r': 0, 'autoexpand':True},
+            margin={'l': 70, 'b': 50, 't': 50, 'r': 15, 'autoexpand':True},
             hovermode='closest'
         )
         
