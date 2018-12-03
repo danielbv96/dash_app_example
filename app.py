@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[13]:
+# In[15]:
 
 
 import dash
@@ -103,7 +103,7 @@ app.layout = html.Div([
         
 
     
-],style = {'display': 'inline-block', 'width': '98%','margin-left' : '10px','margin-right': '10px'})
+],style = {'display': 'inline-block', 'width': '90%','margin-left' : '20px','margin-right': '20px'})
 
 
 
