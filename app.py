@@ -93,7 +93,7 @@ app.layout = html.Div([
 #### To select the country, click on the points in the first graph.
         '''),
         html.Div(id='country',style = {'color':'blue'})
-    ],style = {'display': 'inline-block','width': '97%','margin-left': '20px'}),
+    ],style = {'display': 'inline-block','width': '95%','margin-left': '20px'}),
     html.Div([
        # html.Div([
        #     dcc.Dropdown(
